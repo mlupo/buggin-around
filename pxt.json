@@ -4,7 +4,7 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "move_motor": "github:KitronikLtd/pxt-kitronik-move-motor#v0.1.47"
+        "Kitronik_Move_Motor": "github:KitronikLtd/pxt-kitronik-move-motor#v0.1.47"
     },
     "files": [
         "main.blocks",

@@ -17,10 +17,10 @@ input.onButtonPressed(Button.A, function () {
 
 ## _
 ### Get Moving!
-Click on the ``||move_motor:Move Motor||`` drawer, then select the ``||move_motor:Motors||`` subcategory.  
+Click on the ``||Kitronik_Move_Motor:Move Motor||`` drawer, then select the ``||Kitronik_Move_Motor:Motors||`` subcategory.  
 
-Find the ``||move_motor:move Forward at speed 0||`` block, and drag it into ``||input:on button A pressed||``. Change the number **0** to **30**.  
-Next, from the ``||Basic:basic||`` find the ``||Basic:pause (ms) 100||`` block, and add it underneath the ``||move_motor:move||`` block in your code. Change the **100** to **1000** (or 1 second).
+Find the ``||Kitronik_Move_Motor:move Forward at speed 0||`` block, and drag it into ``||input:on button A pressed||``. Change the number **0** to **30**.  
+Next, from the ``||Basic:basic||`` find the ``||Basic:pause (ms) 100||`` block, and add it underneath the ``||Kitronik_Move_Motor:move||`` block in your code. Change the **100** to **1000** (or 1 second).
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
