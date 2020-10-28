@@ -3,8 +3,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "pxt-kitronik-move-motor": "github:kitronikltd/pxt-kitronik-move-motor#v0.1.47"
+        "radio": "*"
     },
     "files": [
         "main.blocks",

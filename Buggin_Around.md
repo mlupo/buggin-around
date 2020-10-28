@@ -7,7 +7,7 @@ Okay! Let's move our robot for the first time! In this tutorial, we will write s
 Then we will make the code more interesting by adding loops and beeps!
 
 ## _
-### Take in Some Input
+### Take in Some input
 First we are going to use an ``||input:input||`` block to initiate movement! Bring a ``||input:on button A pressed||`` block from the ``||input:input||`` drawer into the workspace.  
 
 ```blocks
@@ -17,11 +17,10 @@ input.onButtonPressed(Button.A, function () {
 
 ## _
 ### Get Moving!
-Click on the **Move Motor** drawer, then select the **Kitronik_Move_Motor:Motors** subcategory.  
+Click on the ``||move_motor:Move Motor||`` drawer, then select the ``||move_motor:Motors||`` subcategory.  
 
-Find the **move Forward at speed 0** block, and drag it into ``||input:on button A pressed||``. Change the number **0** to **30**.  
-Next, from the ``||Basic:basic||`` find the ``||Basic:pause (ms) 100||`` block, and add it underneath the **move** block in your code. Change the **100** to **1000** (or 1 second).
-
+Find the ``||move_motor:move Forward at speed 0||`` block, and drag it into ``||input:on button A pressed||``. Change the number **0** to **30**.  
+Next, from the ``||Basic:basic||`` find the ``||Basic:pause (ms) 100||`` block, and add it underneath the ``||move_motor:move||`` block in your code. Change the **100** to **1000** (or 1 second).
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
