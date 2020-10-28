@@ -1,7 +1,7 @@
 # bug2
 
 ## 1
-Test ``||input:hi||`` and ``||move_motor:Motor||`` maybe.
+Test ``||input:hi||`` and ``||kitronik-move-motor:Motor||`` maybe.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
