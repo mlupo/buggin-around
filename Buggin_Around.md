@@ -1,13 +1,15 @@
 # Buggin' Around
 
+```package
+move_motor=github:KitronikLtd/pxt-kitronik-move-motor
+```
+
 ## _ @unplugged
 ### Let's Drive This Buggy!
 Okay! Let's move our robot for the first time! In this tutorial, we will write some short code to test out the code loading process, and the robot's movement.  
 
 Then we will make the code more interesting by adding loops and beeps!
-```package
-move_motor=github:KitronikLtd/pxt-kitronik-move-motor
-```
+
 ## _
 ### Take in Some Input
 First we are going to use an ``||input:input||`` block to initiate movement! Bring a ``||input:on button A pressed||`` block from the ``||input:input||`` drawer into the workspace.  
