@@ -23,7 +23,7 @@ Find the **move Forward at speed 0** block, and drag it into ``||input:on button
 Next, from the ``||Basic:basic||`` find the ``||Basic:pause (ms) 100||`` block, and add it underneath the **move** block in your code. Change the **100** to **1000** (or 1 second).
 
 ```package
-"pxt-kitronik-move-motor"=github:KitronikLtd/pxt-kitronik-move-motor
+"Kitronik_Move_Motor"=github:KitronikLtd/pxt-kitronik-move-motor
 ```
 
 ```blocks
