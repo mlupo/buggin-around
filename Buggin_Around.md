@@ -22,9 +22,6 @@ Click on the **Move Motor** drawer, then select the **Kitronik_Move_Motor:Motors
 Find the **move Forward at speed 0** block, and drag it into ``||input:on button A pressed||``. Change the number **0** to **30**.  
 Next, from the ``||Basic:basic||`` find the ``||Basic:pause (ms) 100||`` block, and add it underneath the **move** block in your code. Change the **100** to **1000** (or 1 second).
 
-```package
-"Kitronik_Move_Motor"=github:KitronikLtd/pxt-kitronik-move-motor
-```
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
