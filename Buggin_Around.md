@@ -6,7 +6,7 @@ Okay! Let's move our robot for the first time! In this tutorial, we will write s
 
 Then we will make the code more interesting by adding loops and beeps!
 ```package
-    move_motor=github:KitronikLtd/pxt-kitronik-move-motor
+move_motor=github:KitronikLtd/pxt-kitronik-move-motor
 ```
 ## _
 ### Take in Some Input
