@@ -1,5 +1,9 @@
 # Buggin' Around
 
+```package
+    Kitronik_Move_Motor=github:KitronikLtd/pxt-kitronik-move-motor
+```
+
 ## _ @unplugged
 ### Let's Drive This Buggy!
 Okay! Let's move our robot for the first time! In this tutorial, we will write some short code to test out the code loading process, and the robot's movement.  
