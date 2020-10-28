@@ -1,7 +1,7 @@
 # bug2
 
 ## 1
-Test ``||input:hi||`` and ``||kitronik-move-motor:Motor||`` maybe.
+Test ``||input:hi||`` and **Motor** maybe.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -19,5 +19,7 @@ input.onButtonPressed(Button.A, function () {
 Thanks for checking this out!
 
 ```package
+loops
+input
 kitronik-move-motor=github:KitronikLtd/pxt-kitronik-move-motor
 ```
