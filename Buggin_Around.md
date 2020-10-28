@@ -1,7 +1,7 @@
 # Buggin' Around
 
 ```package
-move_motor=github:KitronikLtd/pxt-kitronik-move-motor
+"pxt-kitronik-move-motor"=github:KitronikLtd/pxt-kitronik-move-motor
 ```
 
 ## _ @unplugged
